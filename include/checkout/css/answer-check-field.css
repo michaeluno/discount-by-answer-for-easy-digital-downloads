@@ -1,0 +1,125 @@
+/**
+	Converting EDD Selectors.
+ */
+#edd_checkout_form_wrap .edddba_campaign {
+	padding: 0;
+	border: none;
+}
+#edd_checkout_form_wrap .edddba_wrap,
+#edd_checkout_form_wrap .edddba_show {
+	border: 1px solid #eee;
+}
+
+#edd_checkout_form_wrap .edddba_show {
+	background: #fafafa;
+	color: #666;
+	padding: 0.5em 1.387em;
+}
+#edd_checkout_form_wrap .edddba_show {
+	border: 1px solid #eee;
+}
+
+#edd_checkout_form_wrap .edddba_error_wrap {
+    width: 100%;
+    display: inline-block;
+    margin: 1em 0 0;
+	max-width: 96%;	/* added so that the right-end has some margin */
+}
+
+/* Adjustments */
+.edddba_description > p {
+	margin: 0;
+}
+/* Title Labels */
+/*#edd_checkout_form_wrap .edddba_wrap label {
+	margin-top: 1em;
+}
+#edd_checkout_form_wrap .edddba_wrap label:first-child {
+	margin-top: 0;
+}*/
+
+
+/* Form Elements */
+
+#edd_checkout_form_wrap .edddba-field-title {
+	margin-right: 0.3em;
+}
+
+#edd_checkout_form_wrap .edddba_input[type=radio],
+#edd_checkout_form_wrap .edddba_input[type=checkbox] {
+    width: auto; /* without this width 70% is applied and the radio buttons become too wide */
+}
+#edd_checkout_form_wrap .edd-discount-code-field-wrap.checkbox label,
+#edd_checkout_form_wrap .edd-discount-code-field-wrap.radio label {
+	font-weight: inherit;	/* without this it gets bold */
+}
+
+#edd_checkout_form_wrap .edddba_input[type=radio] {
+	margin-left: 0;	/* align with checkbox */
+}
+
+#edd_checkout_form_wrap .edddba_field_wrap {
+	display: inline;
+	/*margin-bottom: 0.5em;*/
+}
+
+/* Inputs Width - as .edddba_request_wrap takes care of width, inner elements should expand full */
+/*#edd_checkout_form_wrap input.edddba_input {
+	width: 100%;
+}
+#edd_checkout_form_wrap textarea.edddba_input {
+	width: 100%;
+}*/
+
+/* Submit Button to Right */
+#edd_checkout_form_wrap .edd-discount-code-field-wrap.submit {
+	/* Align Right */
+	/*display: flex;
+ 	justify-content: flex-end;*/
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+/* Layout */
+#edd_checkout_form_wrap .edddba_field_wrap {
+	/*width: 70%; !* same as input.edd-input. for aligning the submit button *!
+ 	display: inline;*/
+}
+#edd_checkout_form_wrap .edddba_request_wrap {
+	display: inline;
+	width: 70%; /*padding: 4px 6px;*/
+}
+#edd_checkout_form_wrap .margin_for_inline {
+	display:block;
+	width: 100%;
+	height: 0.72em;
+}
+#edd_checkout_form_wrap .edddba_campaign {
+	/*margin-top: -21px;*/
+}
+
+/*#edd_checkout_form_wrap .margin_for_inline:first-child {
+	height: 0;
+}*/
+
+
+/* Input Errors */
+.edddba_errored {
+	outline: 2px solid #ff9592;
+}
+
+/* Succeed Messages */
+.edddba_notice_wrap {
+	color: #118a1c;
+	background-color: #e9f2e5;
+	border-color: #65cc57;
+	width: 100%;
+	display: inline-block;
+	margin: 1em 0 0;
+	max-width: 96%;
+}
+
+.edddba_hide {
+	display: inline;
+	float: right;
+}

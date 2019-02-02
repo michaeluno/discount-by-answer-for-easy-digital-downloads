@@ -1,0 +1,218 @@
+/**
+    Field Titles
+ */
+.discount-by-answer-for-easy-digital-downloads-section .discount-by-answer-for-easy-digital-downloads-field-title {
+    min-width: auto !important;
+}
+.discount-by-answer-for-easy-digital-downloads-section .discount-by-answer-for-easy-digital-downloads-form-tooltip {
+    margin-left: 1em;
+}
+
+/**
+ Text Input Fields
+ */
+.edddba_full_width,
+.edddba_full_width .sortable.discount-by-answer-for-easy-digital-downloads-field,
+.edddba_full_width .discount-by-answer-for-easy-digital-downloads-field,
+.edddba_full_width .discount-by-answer-for-easy-digital-downloads-field .discount-by-answer-for-easy-digital-downloads-input-label-container,
+.edddba_full_width .discount-by-answer-for-easy-digital-downloads-field .discount-by-answer-for-easy-digital-downloads-input-label-container label,
+.edddba_full_width .discount-by-answer-for-easy-digital-downloads-field .discount-by-answer-for-easy-digital-downloads-input-label-container label input[type=text]
+{
+    width: 100% !important;
+}
+
+
+/**
+ Labels Option Field - inline mixed
+ */
+tr.edddba_labels .discount-by-answer-for-easy-digital-downloads-field,
+tr.edddba_labels .discount-by-answer-for-easy-digital-downloads-field .discount-by-answer-for-easy-digital-downloads-input-label-container,
+tr.edddba_labels .discount-by-answer-for-easy-digital-downloads-field .discount-by-answer-for-easy-digital-downloads-input-label-container label,
+tr.edddba_labels .discount-by-answer-for-easy-digital-downloads-field .discount-by-answer-for-easy-digital-downloads-input-label-container label input {
+    width: 100%;
+}
+
+/**
+  Test Field
+ */
+.edddba_test {
+    border: 1px solid #CCC;
+    display: inline-block;
+    padding: 1em;
+    margin: 1em 0;
+    white-space: nowrap;
+    background-color: #FFF;
+}
+.edddba_requests .edddba_test .discount-by-answer-for-easy-digital-downloads-field-title {
+    padding-top: 0 !important;
+    padding-bottom: 0.4em !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.edddba_test .discount-by-answer-for-easy-digital-downloads-field {
+    width: 100% !important;
+}
+.edddba_test .with-mixed-fields .fieldset-text {
+    width: 40%;
+}
+.edddba_test .fieldset-button a {
+    vertical-align: baseline;
+}
+
+/**
+   Requests Field
+ */
+tr.edddba_requests > th {
+    display: none !important;
+}
+.edddba_requests .sortable .discount-by-answer-for-easy-digital-downloads-field .discount-by-answer-for-easy-digital-downloads-field-title {
+    padding-bottom: 1em;
+    width: auto;
+}
+.edddba_requests .sortable .discount-by-answer-for-easy-digital-downloads-field .discount-by-answer-for-easy-digital-downloads-form-tooltip {
+    vertical-align: middle;
+    display: inline-block;
+    padding-bottom: 0.5em;
+}
+.edddba_requests .sortable .discount-by-answer-for-easy-digital-downloads-field {
+    max-width: 96% !important;
+    /*width: 100% !important;*/
+}
+/* Nested Fields Indentations */
+.edddba_requests .discount-by-answer-for-easy-digital-downloads-fieldset > .discount-by-answer-for-easy-digital-downloads-fields > .discount-by-answer-for-easy-digital-downloads-field.with-nested-fields > .discount-by-answer-for-easy-digital-downloads-fieldset.multiple-nesting {
+    margin-left: 0;
+}
+.edddba_requests .discount-by-answer-for-easy-digital-downloads-field .discount-by-answer-for-easy-digital-downloads-input-label-container,
+.edddba_requests .discount-by-answer-for-easy-digital-downloads-field .discount-by-answer-for-easy-digital-downloads-input-label-container label,
+.edddba_requests .discount-by-answer-for-easy-digital-downloads-field .discount-by-answer-for-easy-digital-downloads-input-label-container label input[type=text]
+{
+    width: 100%;
+}
+    .edddba_field_labels .discount-by-answer-for-easy-digital-downloads-field,
+    .edddba_field_labels .discount-by-answer-for-easy-digital-downloads-field .discount-by-answer-for-easy-digital-downloads-input-label-container,
+    .edddba_field_labels .discount-by-answer-for-easy-digital-downloads-field .discount-by-answer-for-easy-digital-downloads-input-label-container label,
+    .edddba_field_labels .discount-by-answer-for-easy-digital-downloads-field .discount-by-answer-for-easy-digital-downloads-input-label-container label input[type=text]
+    {
+        width: 100% !important;
+    }
+
+    tr td .edddba_field_labels .with-nested-fields > .discount-by-answer-for-easy-digital-downloads-fieldset.child-fieldset > .discount-by-answer-for-easy-digital-downloads-child-field-title {
+        display: inline-block;
+        width: auto;
+        font-weight: normal;
+        margin-bottom: 0.1em !important;
+        padding-bottom: 0em !important;
+    }
+
+    /* Xpath Fields */
+    .edddba_xpaths .discount-by-answer-for-easy-digital-downloads-field {
+        white-space: nowrap !important;
+    }
+    .edddba_xpaths .discount-by-answer-for-easy-digital-downloads-repeatable-field-buttons {
+        display: inline-block !important;
+        float: none !important;
+        margin-top: -1px !important;
+    }
+
+    /**
+        Requests > Grouping
+     */
+    .edddba_grouped .discount-by-answer-for-easy-digital-downloads-field {
+        white-space: nowrap !important;
+    }
+
+/**
+    Test Notifications and Errors
+ */
+.edddba_test_check_message {
+    vertical-align: middle;
+    font-weight: bold;
+    margin: 0 1em;
+}
+.edddba_test_check_message .dashicons {
+    margin: 0 0.2em;
+    vertical-align: text-top;
+}
+.edddba_error {
+    color: red;
+}
+.edddba_success {
+    color: green;
+}
+/**
+    Ajax Elements
+ */
+.edded_spinner {
+    margin: auto 1em;
+}
+
+/**
+    Sortable handle
+ */
+.discount-by-answer-for-easy-digital-downloads-field-title .dashicons {
+    margin-right: 0.5em;
+}
+
+/**
+    Section-set containers
+ */
+.discount-by-answer-for-easy-digital-downloads-sectionset {
+    margin-bottom: 0 !important;
+}
+
+/**
+    Dummy Section for section title and description
+ */
+#section-_edddba_dummy__  {
+    margin-bottom: 0;
+}
+#section-_edddba_dummy__ .section-title {
+    margin-bottom: 0 !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+}
+
+/**
+    Request Field Status Switch On/Off
+ */
+.edddba_request_fields_status .discount-by-answer-for-easy-digital-downloads-field-radio .discount-by-answer-for-easy-digital-downloads-input-label-container {
+    padding-right: 0;
+}
+
+/**
+    Answer Specific Discount Fields
+*/
+.discount-by-answer-for-easy-digital-downloads-fieldset > .discount-by-answer-for-easy-digital-downloads-fields > .discount-by-answer-for-easy-digital-downloads-field.with-nested-fields > fieldset.edddba_answer_specific.discount-by-answer-for-easy-digital-downloads-fieldset {
+    margin-bottom: 0;
+}
+
+/**
+    Field Titles
+ */
+span.required {
+    color: red;
+    font-weight: bold;
+    margin-left: 0.4em;
+}
+
+/**
+ * Tooltips
+ */
+.discount-by-answer-for-easy-digital-downloads-form-tooltip-content img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+/**
+    Misc
+ */
+.pro-feature {
+    color: #118a1c;
+}
+
+/**
+    Thick box @todo move to the request field text component
+ */
+.thickbox-loading {
+    overflow-y: scroll;
+}
