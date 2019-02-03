@@ -15,7 +15,7 @@ Lets your customers answer your requests and issue discount codes in return.
 
 <h4>Give Your Customer Incentives to Contribute to Your Work</h4>
 
-Do you want to give discounts to those who contribute? But it is cumbersome for both of you and your customer to negotiate through conversations with each other, especially you don't know how many of them you have to talk to.
+Do you want to give discounts to those who contribute? But it is cumbersome for both of you and your customer to negotiate through conversations with each other, especially when you don't know how many of them you have to talk to.
 
 Some are slow to respond and don't reply quickly. Some may be so demanding. Not everybody has a good manner. Dealing with those is oftentimes tiresome, stressful, time-consuming, and exhausting, which eventually makes you weary.
 
@@ -27,7 +27,7 @@ This plugin lets you create a small form which you can arrange, displayed in the
 
 Let's say you have a web page that lists contributors. Then, create a campaign with a request form with this plugin. It has an option to accept answers from text of a web page. Now then your contributors can enter their name in your form and get a discount code right away!
 
-<h4>Improve Your Service with a Survey</h4>
+<h4>Improve Your Service through a Survey</h4>
 Also, you can create a survey form and collect answers from your valuable customers to improve your service and give them discounts in return!
 
 <h4>Find Out The Most Effective Campaign With Conversion Rates</h4>
@@ -62,12 +62,13 @@ However, as an exception, site administrators with the `manage_options` capabili
 Yes, you can do that with settings.
 
 <h4>Is it possible to disallow answers with already answered keywords?</h4>
-Yes, with Pro.
+Yes, with [Pro](http://en.michaeluno.jp/discount-by-answer-for-easy-digital-downloads/discount-by-answer-pro-for-easy-digital-downloads/).
 
 <h4>Are you open to feature requests?</h4>
 Yes, definitely! Please post your ideas on the [support forum](https://wordpress.org/support/plugin/discount-by-answer-for-easy-digital-downloads/).
 
 == Other Notes ==
+If you are a developer and want to submit issues, visit the [GitHub repository](https://github.com/michaeluno/discount-by-answer-for-easy-digital-downloads).
 
 == Screenshots ==
 
