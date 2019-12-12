@@ -5,7 +5,7 @@
  * Description:    Lets your customers answer your requests and issue discount codes as a reward.
  * Author:         Michael Uno
  * Author URI:     http://en.michaeluno.jp/
- * Version:        1.0.0
+ * Version:        1.0.1b01
  * Text Domain:    discount-by-answer-for-easy-digital-downloads
  * Domain Path:    language
  */
@@ -17,7 +17,7 @@
  */
 class DiscountByAnswerForEDD_Registry_Base {
  
-    const VERSION        = '1.0.0';    // <--- DON'T FORGET TO CHANGE THIS AS WELL!!
+    const VERSION        = '1.0.1b01';    // <--- DON'T FORGET TO CHANGE THIS AS WELL!!
     const NAME           = 'Discount by Answer for Easy Digital Downloads';
     const DESCRIPTION    = 'Lets your customers answer your requests and issue discount codes as a reward.';
     const URI            = 'http://en.michaeluno.jp/discount-by-answer-for-easy-digital-downloads/';

@@ -80,7 +80,7 @@ class DiscountByAnswerForEDD_Campaign extends DiscountByAnswerForEDD_PluginUtili
             'name'                 => get_the_title( $this->iID ),
             // 'max_uses'             => 1, // inherit from base
             'uses'                 => '',
-            'start'                => date( 'm/d/Y H:i:s', current_time( 'timestamp', 0 ) ),
+            'start'                => date( 'm/d/Y H:i:s', current_time( 'timestamp', 1 ) ),
             'status'               => 'active',
             'code'                 => $this->___getDiscountCodeName( $_iExpiryTime ),
             'expiration'           => $_sExpiryTime,
@@ -142,7 +142,7 @@ class DiscountByAnswerForEDD_Campaign extends DiscountByAnswerForEDD_PluginUtili
          * @return  integer
          */
         private function ___getExpiryTime() {
-            $_iTimeStamp  = current_time( 'timestamp', 0 );
+            $_iTimeStamp  = current_time( 'timestamp', 1 );
             $_iLifespan   = ( integer ) $this->get( array( '_edddba_discount', 'lifespan', 'size' ), 3 )
                 * ( integer ) $this->get( array( '_edddba_discount', 'lifespan', 'unit' ), 3 );
             return ( integer )  $_iTimeStamp + $_iLifespan;
