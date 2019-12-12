@@ -58,7 +58,7 @@ class DiscountByAnswerForEDD_Campaign_Event_WPCron_UnusedDiscountCodeCleaner ext
                         ),
                         array(
                             'key'     => '_edd_discount_expiration',
-                            'value'   => date( 'm/d/Y H:i:s', current_time( 'timestamp' ) ),
+                            'value'   => date( 'm/d/Y H:i:s', current_time( 'timestamp', 1 ) ),
                             'compare' => '<',   // @see edd_discount_status_cleanup()
                         ),
                     ),

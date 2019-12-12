@@ -4,8 +4,8 @@ Donate link:        http://en.michaeluno.jp/donate
 Tags:               EDD, Easy Digital Downloads, Promotion, Discount, Discounts, Survey, Fields, Marketing, Campaign, Addon, Add-on
 Requires at least:  4.1
 Requires PHP:       5.2.4
-Tested up to:       5.3.0
-Stable tag:         1.0.0
+Tested up to:       5.3.1
+Stable tag:         1.0.1
 License:            GPLv2 or later
 License URI:        http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -82,7 +82,7 @@ If you are a developer and want to submit issues, visit the [GitHub repository](
 == Changelog ==
 
 = 1.0.1 - 2019/12/13 =
-- Fixed a bug that the discount start and expiration time was not properly set due to applying the GMT time zone.
+- Fixed a bug that the discount start and expiration date (time) was not properly set due to applying the GMT time zone.
 
 = 1.0.0 - 2019/02/03 =
 - Released.
